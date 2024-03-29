@@ -507,7 +507,6 @@ void F_DecideWipeStyle(void)
   */
 boolean F_TryColormapFade(UINT8 wipecolor)
 {
-	CON_ToggleOff(); // turn off console for the wipe
 #ifndef NOWIPE
 	if (F_ShouldColormapFade())
 	{
